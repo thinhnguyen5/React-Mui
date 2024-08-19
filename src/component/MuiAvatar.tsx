@@ -23,6 +23,11 @@ export const MuiAvatar = () => {
           />
         </AvatarGroup>
       </Stack>
+
+      <Stack direction="row" spacing={1}>
+        <Avatar variant='square' sx={{ bgcolor: "primary.light", width: 48, height: 48 }}>BW</Avatar>
+        <Avatar variant='rounded' sx={{ bgcolor: "success.light", width: 48, height: 48 }}>CK</Avatar>
+      </Stack>
     </Stack>
   );
 };
