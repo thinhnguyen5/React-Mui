@@ -5,6 +5,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import MuiPicker from "./component/MuiPicker";
 import MuiTabs from "./component/MuiTabs";
 import MuiTimeline from "./component/MuiTimeline";
+import MuiMasonry from "./component/MuiMasonry";
 // import MuiLoadingButton from "./component/MuiLoadingButton";
 // import MuiAlter from "./component/MuiAlter";
 // import MuiChip from "./component/MuiChip";
@@ -76,7 +77,8 @@ function App() {
         {/* <MuiLoadingButton /> */}
         {/* <MuiPicker /> */}
         {/* <MuiTabs /> */}
-        <MuiTimeline />
+        {/* <MuiTimeline /> */}
+        <MuiMasonry />
       </div>
     </LocalizationProvider>
   );
